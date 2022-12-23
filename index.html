@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script src="./js/index.js" defer></script>
+  <script src="./js/jquery-3.6.2.min.js"></script>
+  <link rel="stylesheet" href="./index.css">
+
+  <title>Hangman</title>
+</head>
+<body>
+    <header>
+        <h1>Hangman</h1>
+    </header>
+<div class="container">
+  
+  <div class="life-count">Wrong Guesses: <span id='mistakes'>0</span> of <span id='maxWrong'></span></div>
+  <div class="guessword">
+    <p>Guess the right word to win:</p>
+    <p id="wordArray"></p>
+    <div id="keyboard"></div>
+    <button class="start-button">Start the game</button>
+    <button class="reset-button">Restart game</button>
+  </div> 
+</div>
+
+
+</body>
+</html>
