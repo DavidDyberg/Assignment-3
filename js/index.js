@@ -99,5 +99,3 @@ $(".start-button").click(generateButtons);
 $(".reset-button").click(reset);
 randomWord();
 guessedWord();
-
-console.log(word);
